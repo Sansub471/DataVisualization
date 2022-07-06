@@ -10,8 +10,11 @@ py_dev_y = [45372, 48876, 53850, 57287, 63016,
             65998, 70003, 70000, 71496, 75370, 83640]
 
 # Add legend to identify which line is which
-plt.plot(ages_x, dev_y, py_dev_y)
-plt.xlabel("Age(years)")
-plt.ylabel("Salary in US$")
-plt.title('Developer Salary by Age in USD')
-plt.show()
+#plt.plot(ages_x, dev_y, py_dev_y)
+#plt.xlabel("Age(years)")
+#plt.ylabel("Salary in US$")
+#plt.title('Developer Salary by Age in USD')
+#plt.show()
+
+for i in range(9):
+    print(i%3)

@@ -1,5 +1,3 @@
-from dataclasses import field
-from random import randint
 import numpy as np
 
 a = np.array([1,2,5], dtype='int32') # specify data type; int16, int8, int32
