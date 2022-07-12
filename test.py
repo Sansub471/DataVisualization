@@ -1,23 +1,29 @@
 import numpy as np
+arr = np.array([[1,2,3],[4,5,6]])
+print(arr)
 
-features = np.array(
-    [
-        [-1, -1],
-        [-1, 1],
-        [1, -1],
-        [1, 1]
-    ])
-print(features)
+size = arr.shape
+print(f'The size of the array is {size}')
 
-a = np.array([1,2,5], dtype='int32') # specify data type; int16, int8, int32
-print(a)
+# Transpose
+tpose = arr.transpose()
+print(f'The transpose of the matrix is \n {tpose}')
+size = tpose.shape
+print(f'Size after transpose {size}')
+
+# Linspace
+
+data_cloud = np.linspace(1,10, num= 10,retstep=True, dtype='float64')
+print(data_cloud)
+
+# arange
+
+rg = np.arange(15)
+print('Arange')
+print(type(rg))
 
 
-ran = np.random.rand(4,2)
-#ransample = np.random.random_sample(a.shape)
-print(f'Random numbers between 0 and 1 \n{ran}')
-#print(f'Random Sample like a \n{ransample}')
-
-ranint = np.random.randn(-0.5,0.5, size=(2,2))
-print(ranint)
-
+# reshape
+arr2 = arr.reshape(6,1)
+print('Reshape')
+print(arr2)
