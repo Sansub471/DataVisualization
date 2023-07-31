@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 
-#plt.style.use("fivethirtyeight")
+plt.style.use("fivethirtyeight")
 
 slices  = [60, 40]
 
