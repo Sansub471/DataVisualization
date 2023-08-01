@@ -30,5 +30,12 @@ plt.show()
 
 slices = [59219, 55466, 47544, 36443, 35917]
 labels = ['JavaScript', 'HTML/CSS', 'SQL', 'Python', 'Java']
-plt.pie(slices, labels=labels, wedgeprops={'edgecolor' : 'black'})
+explode = [0, 0, 0, 0.1, 0] # For emphasis, 0 means normal, other value 
+# is percent of radius
+
+
+plt.pie(slices, labels=labels, explode=explode, shadow=True, 
+        startangle=180, # where to start plotting
+        autopct='%1.1f%%', # Percent on pie chart
+        wedgeprops={'edgecolor' : 'black'})
 plt.show()
