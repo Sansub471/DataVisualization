@@ -22,7 +22,7 @@ plt.hist(ages, bins=bins, edgecolor='black', log=True) # bins = 5 divide the dat
 # 5 beans, and plot it.
 
 # vertical line
-plt.axvline(median_age, color=color, label='Age Median')
+plt.axvline(median_age, color=color, label='Age Median', linewidth=2)
 plt.legend()
 plt.title('Ages of Respondents')
 plt.xlabel('Ages')
