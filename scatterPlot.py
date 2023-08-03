@@ -39,10 +39,16 @@ view_count = data['view_count']
 likes = data['likes']
 ratio = data['ratio']
 
-plt.scatter(x, y, s=sizes, c=colors, cmap='Greens',
+# How to deal with outlier? 
+# log scale
+plt.scatter(view_count, likes, c=ratio, cmap='autumn',
             edgecolor='black', linewidths=1, alpha=0.75)
+plt.xscale('log')
+plt.yscale('log')
+
+plt.grid(False)
 cbar = plt.colorbar()
-cbar.set_label('Satisfaction')
+cbar.set_label('Like/Dislike Ratio')
 
 plt.title('Trending YouTube Videos')
 plt.xlabel('View Count')
