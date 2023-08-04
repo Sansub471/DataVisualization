@@ -21,12 +21,19 @@ plt.style.use('seaborn')
 # plt.gcf().autofmt_xdate() # get current figure (gcf) and auto format.
 # date_format = mpl_dates.DateFormatter('%b, %d, %Y') # Documentation
 # plt.gca().xaxis.set_major_formatter(date_format)
-# # gca  : get current axes
+# gca  : get current axes
 
 # For real life data
 data = pd.read_csv('dataTimeSeries.csv')
-price_date = data['Date']
+# Convert to date and sort it
+data['Date'] = pd.to_datetime(data['Date'])
+data.sort_values('Date', inplace=True)
+
+price_date = data['Date'] # Being read as string
 price_close = data['Close']
+
+plt.plot_date(price_date, price_close, linestyle='solid')
+plt.gcf().autofmt_xdate() # get current figure (gcf) and auto format.
 
 plt.title('Bitcoin Prices')
 plt.xlabel('Date')
