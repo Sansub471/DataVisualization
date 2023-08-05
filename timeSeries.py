@@ -41,3 +41,5 @@ plt.ylabel('Closing Price')
 
 plt.tight_layout()
 plt.show()
+
+# Exam is coming, so have to pause for tha day.
