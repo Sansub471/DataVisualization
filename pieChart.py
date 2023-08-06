@@ -39,3 +39,5 @@ plt.pie(slices, labels=labels, explode=explode, shadow=True,
         autopct='%1.1f%%', # Percent on pie chart
         wedgeprops={'edgecolor' : 'black'})
 plt.show()
+
+# Multiple pie charts
