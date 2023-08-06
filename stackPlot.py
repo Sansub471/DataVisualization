@@ -19,3 +19,5 @@ plt.title("Stack Plot")
 plt.tight_layout()
 plt.legend(loc=(0.07, 0.05)) # explore more for positioning
 plt.show()
+
+# This is stack plot.
