@@ -56,4 +56,3 @@ plt.ylabel('Total Likes')
 plt.tight_layout()
 plt.show()
 
-# The scatter plot with formatting.

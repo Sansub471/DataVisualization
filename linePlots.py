@@ -42,4 +42,3 @@ plt.xlabel("Ages")
 plt.ylabel("Median Salaries")
 plt.show()
 
-# This is a formatted line plots.

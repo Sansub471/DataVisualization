@@ -40,4 +40,3 @@ plt.pie(slices, labels=labels, explode=explode, shadow=True,
         wedgeprops={'edgecolor' : 'black'})
 plt.show()
 
-# Multiple pie charts

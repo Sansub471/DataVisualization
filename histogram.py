@@ -30,4 +30,3 @@ plt.ylabel('Total Respondents')
 plt.tight_layout()
 plt.show()
 
-# Histogram, when to use it.

@@ -244,5 +244,3 @@ print(b)
 
 c = ((filedata > 5) & (filedata < 13))
 print(c)
-
-# Have to read for exam
