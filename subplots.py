@@ -23,15 +23,37 @@ js_salaries = data['JavaScript']
 
 # We are using the plt object, the one we imported.
 # Let's talk about figure and axes.
-fig, ax = plt.subplots() # Create a figure and no. of axes
-ax.plot(ages, py_salaries, label='Python')
-ax.plot(ages, js_salaries, label='JavaScript')
-ax.plot(ages, dev_salaries, color='#444444',
+
+# fig, ax = plt.subplots() # Create a figure and no. of axes
+# ax.plot(ages, py_salaries, label='Python')
+# ax.plot(ages, js_salaries, label='JavaScript')
+# ax.plot(ages, dev_salaries, color='#444444',
+#          linestyle='--', label='All Devs')
+# ax.legend()
+# ax.set_title('Median Salary (USD) by Age')
+# ax.set_xlabel('Ages')
+# ax.set_ylabel('Median Salary (USD)')
+
+# plt.tight_layout()
+# plt.show()
+
+# Let's try with many rows and columns.
+fig, ax = plt.subplots(nrows=2, ncols=1) # Create a figure and no. of axes
+print(f'The returned figure looks like : {ax}')
+(ax1, ax2) = ax
+ax2.plot(ages, py_salaries, label='Python')
+ax2.plot(ages, js_salaries, label='JavaScript')
+ax2.legend()
+ax2.set_title('Median Salary (USD) by Age')
+ax2.set_xlabel('Ages')
+ax2.set_ylabel('Median Salary (USD)')
+
+ax1.plot(ages, dev_salaries, color='#444444',
          linestyle='--', label='All Devs')
-ax.legend()
-ax.set_title('Median Salary (USD) by Age')
-ax.set_xlabel('Ages')
-ax.set_ylabel('Median Salary (USD)')
+ax1.legend()
+ax1.set_title('Median Salary (USD) by Age')
+ax1.set_xlabel('Ages')
+ax1.set_ylabel('Median Salary (USD)')
 
 plt.tight_layout()
 plt.show()
