@@ -54,3 +54,5 @@ ani = FuncAnimation(plt.gcf(), animate, interval=1000) # pass current figure
 
 plt.tight_layout()
 plt.show()
+
+# Explore these functions more to learn more...
