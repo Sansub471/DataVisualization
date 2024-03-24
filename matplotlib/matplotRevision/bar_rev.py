@@ -27,5 +27,3 @@ plt.title("Median Salary (USD) by Age")
 plt.xlabel("Ages")
 plt.ylabel("Salary (USD)")
 plt.show()
-
-# Need to be a bit more familiar with bar from documentation
