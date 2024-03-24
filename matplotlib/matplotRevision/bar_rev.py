@@ -27,5 +27,3 @@ plt.title("Median Salary (USD) by Age")
 plt.xlabel("Ages")
 plt.ylabel("Salary (USD)")
 plt.show()
-
-# you are so fucked man
