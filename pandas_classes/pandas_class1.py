@@ -25,8 +25,3 @@ df.loc["Mean"] = subject_means.append(pd.Series({"Total": df["Total"].mean(), "G
 
 # 7. Filter rows for students with Grade "A"
 grade_a_students = df[df["Grade"] == "A"]
-
-# 8. Print results
-print("Original DataFrame:\n", df)
-print("\nStudents with Grade A:\n", grade_a_students)
-print("\nSubject-Wise Means:\n", subject_means)
