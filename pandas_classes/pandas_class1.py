@@ -35,4 +35,4 @@ plt.legend()
 plt.grid()
 
 # Show the plot
-plt.show()
+# plt.show()
