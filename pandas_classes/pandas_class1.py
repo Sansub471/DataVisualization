@@ -11,15 +11,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Add a Profit column
-df['Profit'] = df['Sales'] - df['Expenses']
-
-# Print the first 5 rows of the DataFrame
-print(df.head())
-
-# Calculate summary statistics
-print("\nSummary Statistics:")
-print(df.describe())
 
 
 
