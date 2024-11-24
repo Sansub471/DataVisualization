@@ -21,18 +21,7 @@ print(df.head())
 print("\nSummary Statistics:")
 print(df.describe())
 
-# Plot Sales, Expenses, and Profit
-plt.figure(figsize=(10, 6))
-plt.plot(df['Date'], df['Sales'], label='Sales', marker='o')
-plt.plot(df['Date'], df['Expenses'], label='Expenses', marker='s')
-plt.plot(df['Date'], df['Profit'], label='Profit', marker='d')
 
-# Customize the plot
-plt.title("Sales, Expenses, and Profit Over Time")
-plt.xlabel("Date")
-plt.ylabel("Amount ($)")
-plt.legend()
-plt.grid()
 
 # Show the plot
 # plt.show()
