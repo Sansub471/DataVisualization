@@ -1,0 +1,40 @@
+# Ignore the Data/ folder inside pandas_classes
+pandas_classes/Data/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
+
+# Ignore log files
+*.log
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore dotenv files (sensitive environment variables)
+.env
+.env.*
+
+# Ignore specific file types
+*.sqlite3       # Ignore SQLite database files
+*.csv           # Ignore all CSV files
+*.xls           # Ignore all Excel files
+*.json          # Ignore all JSON files
+*.pkl           # Ignore all pickle files
+*.h5            # Ignore HDF5 files
+
+# Ignore custom IDE or OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
