@@ -74,4 +74,4 @@ if __name__ == "__main__":
         # Example merge (requires second DataFrame df2)
         # merge_example(df, df2)
     except FileNotFoundError:
-        print("Please provide a valid 'data.csv' file in the working directory.")
+        print("Please provide a valid '.csv' file in the working directory.")
