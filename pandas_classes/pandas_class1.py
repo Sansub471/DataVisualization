@@ -56,6 +56,10 @@ def merge_example(df1, df2):
     print("Merged DataFrame:")
     print(merged.head())
 
+
+# Learning next important pands functions for the day
+
+
 # Example Usage:
 if __name__ == "__main__":
     # Example to demonstrate functions (requires valid CSV and columns)
