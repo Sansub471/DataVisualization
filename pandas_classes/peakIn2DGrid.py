@@ -28,3 +28,6 @@ class Solution:
                 low = mid_row + 1  # Move down
         
         return [-1, -1]  # Should never reach here
+
+
+# Finding peak in a 2D grid matrix
