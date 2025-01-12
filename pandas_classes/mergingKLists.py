@@ -39,3 +39,4 @@ class Solution:
                 heappush(min_heap, (smallest.next.val, i, smallest.next))
 
         return dummy.next
+# Time complexity : O(NlogK)
