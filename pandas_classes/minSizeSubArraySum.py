@@ -15,3 +15,5 @@ class Solution:
                 break
 
         return 0 if min_length == len(nums) + 1 else min_length
+
+# minSubArraySum sum is much easier 
