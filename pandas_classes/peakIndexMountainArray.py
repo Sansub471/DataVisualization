@@ -12,3 +12,4 @@ class Solution:
                 low = mid + 1  # The peak is in the right half
         
         return low
+# Closing the day for now
