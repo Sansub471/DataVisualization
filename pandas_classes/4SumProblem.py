@@ -38,5 +38,3 @@ class Solution:
                         right -= 1
                         
         return result
-
-# Closing the day for now

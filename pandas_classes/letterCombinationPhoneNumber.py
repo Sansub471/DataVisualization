@@ -27,4 +27,3 @@ class Solution:
             return result
         self.backtrack(digits, digit_map, "", 0, result)
         return result
-# Closing the day for now
