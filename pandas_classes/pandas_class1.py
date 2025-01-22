@@ -147,3 +147,4 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print("Please provide a valid 'data.csv' file in the working directory.")
 
+# Start of the day with python for me.
